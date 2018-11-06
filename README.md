@@ -4,9 +4,7 @@ A real time audio spectrum visualizer in the shape of an hourglass built with C+
 For more details check the [webpage](web/index.html)
 <center><font color="#908080">
 
-# <u>Sands of Sound</u>
-
-## by: Abhijeet Phatak
+## Author: Abhijeet Phatak
 
 </font></center>
 
@@ -16,7 +14,7 @@ For more details check the [webpage](web/index.html)
 
 The goal of this assignment was to make a real-time audio (spectrum) visualizer to visualize audio signals in time and frequency domain. I named this project sands of sound because it is made to look like an hourglass. Hourglass was one of the first instruments used to keep track of time. The top half of the hourglass shows a waterfall plot of the time domain signal and the lower half of the hourglass shows the frequency domain waterfall.
 
-For nerds like me, this is what I am trying to say \begin{equation*} X(\omega) = \int_{-\infty}^{\infty} x(t) e ^{-j \omega t} \mathrm{d}t = \int_{-\infty}^{\infty} x(t) e ^{-j 2 \pi f t} \mathrm{d}t \end{equation*} \begin{equation*} x(t) = \frac{1}{2 \pi} \int_{-\infty}^{\infty} X(\omega) e ^{j \omega t} \mathrm{d}\omega = \int_{-\infty}^{\infty} X(f) e ^{j 2 \pi f t} \mathrm{d}f \end{equation*} \begin{equation*} x(t) \Leftrightarrow X(w) \end{equation*}
+For nerds like me, this is what I am trying to say \\[ X(\omega) = \int_{-\infty}^{\infty} x(t) e ^{-j \omega t} \mathrm{d}t = \int_{-\infty}^{\infty} x(t) e ^{-j 2 \pi f t} \mathrm{d}t ]\\  \\[ x(t) = \frac{1}{2 \pi} \int_{-\infty}^{\infty} X(\omega) e ^{j \omega t} \mathrm{d}\omega = \int_{-\infty}^{\infty} X(f) e ^{j 2 \pi f t} \mathrm{d}f ]\\ \\[ x(t) \Leftrightarrow X(w) ]\\
 
 One of the motivations to make this was to say that time and frequncy is related by the Fourier transform. That is why I made a symmetrical structure showing that its just a different way to perceive signals. I do understand that time and frequency and orthogonal but an orthogonal hourglass is something that you don't want to see.
 
