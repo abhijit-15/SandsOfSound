@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 # SandsOfSound
 A real time audio spectrum visualizer in the shape of an hourglass built with C++, OpenGL, RtAudio, ChucK
 
@@ -16,7 +14,10 @@ For more details check the [webpage](web/index.html)
 
 The goal of this assignment was to make a real-time audio (spectrum) visualizer to visualize audio signals in time and frequency domain. I named this project sands of sound because it is made to look like an hourglass. Hourglass was one of the first instruments used to keep track of time. The top half of the hourglass shows a waterfall plot of the time domain signal and the lower half of the hourglass shows the frequency domain waterfall.
 
-For nerds like me, this is what I am trying to say \\[ X(\omega) = \int_{-\infty}^{\infty} x(t) e ^{-j \omega t} \mathrm{d}t = \int_{-\infty}^{\infty} x(t) e ^{-j 2 \pi f t} \mathrm{d}t \\]  \\[ x(t) = \frac{1}{2 \pi} \int_{-\infty}^{\infty} X(\omega) e ^{j \omega t} \mathrm{d}\omega = \int_{-\infty}^{\infty} X(f) e ^{j 2 \pi f t} \mathrm{d}f \\] \\[ x(t) \Leftrightarrow X(w) \\]
+For nerds like me, this is what I am trying to say 
+[1](https://latex.codecogs.com/gif.latex?X%28%5Comega%29%20%3D%20%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20x%28t%29%20e%20%5E%7B-j%20%5Comega%20t%7D%20%5Cmathrm%7Bd%7Dt%20%3D%20%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20x%28t%29%20e%20%5E%7B-j%202%20%5Cpi%20f%20t%7D%20%5Cmathrm%7Bd%7Dt)
+[2](https://latex.codecogs.com/gif.latex?x%28t%29%20%3D%20%5Cfrac%7B1%7D%7B2%20%5Cpi%7D%20%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20X%28%5Comega%29%20e%20%5E%7Bj%20%5Comega%20t%7D%20%5Cmathrm%7Bd%7D%5Comega%20%3D%20%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7D%20X%28f%29%20e%20%5E%7Bj%202%20%5Cpi%20f%20t%7D%20%5Cmathrm%7Bd%7Df)
+[3](https://latex.codecogs.com/gif.latex?x%28t%29%20%5CLeftrightarrow%20X%28w%29)
 
 One of the motivations to make this was to say that time and frequncy is related by the Fourier transform. That is why I made a symmetrical structure showing that its just a different way to perceive signals. I do understand that time and frequency and orthogonal but an orthogonal hourglass is something that you don't want to see.
 
