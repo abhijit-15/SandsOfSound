@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  VisualSine.cpp
+c:\users\abhijeet\downloads\artfuldesign\hw2\hw1-boilerplate\code_old\hw1_boilerplate_2018\core\util_math.h(44): warning C4273: 'round': inconsistent dll linkage
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_math.h(532): note: see previous definition of 'round'
+c:\users\abhijeet\downloads\artfuldesign\hw2\hw1-boilerplate\code_old\hw1_boilerplate_2018\core\util_math.h(45): warning C4273: 'trunc': inconsistent dll linkage
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_math.h(536): note: see previous definition of 'trunc'
+c:\users\abhijeet\downloads\artfuldesign\hw2\hw1-boilerplate\code_old\hw1_boilerplate_2018\host\visualsine.cpp(579): warning C4101: 'ytemp': unreferenced local variable
+c:\users\abhijeet\downloads\artfuldesign\hw2\hw1-boilerplate\code_old\hw1_boilerplate_2018\host\visualsine.cpp(579): warning C4101: 'fval_time': unreferenced local variable
+c:\users\abhijeet\downloads\artfuldesign\hw2\hw1-boilerplate\code_old\hw1_boilerplate_2018\host\visualsine.cpp(577): warning C4101: 'ptr': unreferenced local variable
+c:\users\abhijeet\downloads\artfuldesign\hw2\hw1-boilerplate\code_old\hw1_boilerplate_2018\host\visualsine.cpp(579): warning C4101: 'fval': unreferenced local variable
+chuck.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library C:\Users\Abhijeet\Downloads\artfuldesign\hw2\hw1-boilerplate\code_old\HW1_boilerplate_2018\visual-studio\\Win32\Debug\VisualSine.lib and object C:\Users\Abhijeet\Downloads\artfuldesign\hw2\hw1-boilerplate\code_old\HW1_boilerplate_2018\visual-studio\\Win32\Debug\VisualSine.exp
+  VisualSine.vcxproj -> C:\Users\Abhijeet\Downloads\artfuldesign\hw2\hw1-boilerplate\code_old\HW1_boilerplate_2018\visual-studio\\Win32\Debug\VisualSine.exe
+  copy exe to top level
+          1 file(s) copied.
+  C:\Users\Abhijeet\Downloads\artfuldesign\hw2\hw1-boilerplate\code_old\HW1_boilerplate_2018\visual-studio\\GL\glut.dll
+  C:\Users\Abhijeet\Downloads\artfuldesign\hw2\hw1-boilerplate\code_old\HW1_boilerplate_2018\visual-studio\\GL\glut32.dll
+          2 file(s) copied.
