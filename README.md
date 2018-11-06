@@ -1,3 +1,5 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 # SandsOfSound
 A real time audio spectrum visualizer in the shape of an hourglass built with C++, OpenGL, RtAudio, ChucK
 
